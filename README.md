@@ -47,11 +47,14 @@ Abra o Painel de Controle do Windows:
 
 ## ESTRUTURA DO PROJETO
 
-# Features: 
+# Features
 - No Cucumber, os recursos são arquivos de especificação escritos em uma linguagem chamada Gherkin. Eles descrevem o comportamento do sistema em termos de cenários e etapas. Um recurso é composto por cenários, que representam casos de teste específicos.
 
-# RunCucumberTest: 
+# RunCucumberTest
 - A execução dos testes do Cucumber envolve a execução dos cenários descritos nos arquivos de recursos. Isso é feito por meio da definição dos passos correspondentes a cada etapa em um arquivo de passos (steps).
 
-# Steps: 
+# Steps
 - Os steps são as implementações das etapas definidas nos cenários dos arquivos de recursos. Eles são responsáveis por interagir com o sistema em teste e realizar as ações necessárias. Os passos são escritos em uma linguagem de programação e mapeados aos cenários por meio de expressões regulares ou anotações.
+
+# DTO
+- Uma classe DTO (Data Transfer Object) é um objeto usado para transportar dados entre camadas ou componentes de um sistema. Ela contém apenas atributos e não possui lógica de negócio. O objetivo é facilitar a transferência eficiente e coesa de dados entre diferentes partes do código.
